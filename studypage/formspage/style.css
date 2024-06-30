@@ -1,0 +1,31 @@
+html, body{
+    background-color: rgb(126, 126, 126);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+form{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: 25px auto;
+    padding: 30px;
+}
+
+div{
+    margin: 12px;
+}
+
+div label{
+    display: block;
+}
+
+.radio input,
+.radio label{
+    display: inline-block;
+}

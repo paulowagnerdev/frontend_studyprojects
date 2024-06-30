@@ -1,0 +1,123 @@
+body{
+    background-color: rgba(245, 245, 220, 0.603);
+}
+
+.linha{
+    background-color: black;
+    font-weight: 300;
+    font-size: large;
+    
+}
+
+#linhaum{
+    color: brown;
+    background-color: #000;
+    font-weight: 300;
+    font-size: large;
+}
+
+.colorname{
+    color: #fff;
+    font-size: 50px;
+    background-color: #000;
+}
+
+.hex{
+    color: #ff0000;
+    font-size: 50px;
+    background-color: #000;
+}
+
+.opacity{
+    background-color: rgba(0,0,0,0.3);
+    text-align: center;
+    font-size: 50px;
+    width: 500px;
+    height: 500px;
+    color: #ff0000;
+}
+
+.imgcentral,
+.imgsecond{
+    height: 350px;
+    width: 350px;
+    background-image: url("img/central.jpg");
+
+}
+
+.imgcentral{
+    background-position: center;
+    background-size: cover;
+}
+
+.imgsecond{
+    background-position: center;
+}
+
+.boxmodel{
+    background-color: #ff009d;
+    width: 300px;
+    height: 300px;
+    font-size: 60px;
+    font-weight: bold;
+    border-color: #000;
+    display: block;
+    font-family: cursive;
+    text-align: center;
+}
+
+.height{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px;
+    
+}
+
+.height-width{
+    width: 250px;
+    height: 120px;
+    background-color: #ff0000;
+    box-sizing: border-box;
+    
+}
+
+.border-ex{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 5px solid black;
+    margin-top: 10px;
+
+}
+
+.border-radius-test{
+    background-color: coral;
+
+}
+
+.text-div{
+    text-align: center;
+    width: 300px;
+    border: 3px solid red;
+}
+
+.text-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: #0082fc;
+    letter-spacing: 3px;
+    font-family: fantasy;
+}
+
+.dysplayinline{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    background-color: aqua;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}

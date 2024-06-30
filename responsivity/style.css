@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 100px;
+    background-color: #D1B490;
+    position: relative;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    transition: 0.7s;
+}
+
+.logo:hover{
+    filter: invert(16%) sepia(60%) saturate(6128%) hue-rotate(355deg) brightness(104%) contrast(125%);
+}
+
+.logo-container{
+    position: absolute;
+    margin: 7px 15px;
+}
+
+.informations{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    margin: 0px 15px;
+}
+
+.informations li{
+    display: inline-block;
+}
+
+.informations input{
+    border: none;
+    background-color: #D1B490;
+    width: 80px;
+    height: 50px;
+   transition: 0.5s;
+}
+
+.informations input:hover{
+    color: rgb(255, 255, 255);
+}
+
